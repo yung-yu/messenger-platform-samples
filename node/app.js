@@ -324,12 +324,9 @@ function receivedMessage(event) {
       case '汝家澡盆雜配魚。':
          sendTextMessage(senderID, '你家墳頭來種樹。');
         break;
-      case '你老娘來親下廚！':
-         sendTextMessage(senderID, '魚肥果熟入我肚。');
+      case '你好':
+         sendTextMessage(senderID, '在下是七省文狀元兼參謀將軍，綽號對王之王的對穿腸。閣下是？');
         break;
-      case '你好'：
-          sendTextMessage(senderID, '對穿腸：在下是七省文狀元兼參謀將軍，綽號對王之王的對穿腸。閣下是？');  
-          break;
       default:
         sendTextMessage(senderID, messageText);
     }
