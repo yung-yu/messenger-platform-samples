@@ -309,24 +309,27 @@ function receivedMessage(event) {
       case 'account linking':
         sendAccountLinking(senderID);
         break;
-      case '圖書裡，龍不吟虎不嘯，小小書僮可笑可笑。':
-         sendTextMessage(senderID, '棋盤裡，車無輪馬無韁，叫聲將軍提防提防。');
+      case '棋盤裡，車無輪馬無韁，叫聲將軍提防提防。':
+         sendTextMessage(senderID, '圖書裡，龍不吟虎不嘯，小小書僮可笑可笑。');
         break;
-      case '鶯鶯燕燕翠翠紅紅處處融融洽洽。':
-         sendTextMessage(senderID, '雨雨風風花花葉葉年年暮暮朝朝。');
+      case '雨雨風風花花葉葉年年暮暮朝朝。':
+         sendTextMessage(senderID, '鶯鶯燕燕翠翠紅紅處處融融洽洽。');
         break;
-      case '十口心思，思君思國思社稷。':
-         sendTextMessage(senderID, '八目共賞，賞花賞月賞秋香。');
+      case '八目共賞，賞花賞月賞秋香。':
+         sendTextMessage(senderID, '十口心思，思君思國思社稷。');
         break;
-      case '我上等威風，顯現一身虎膽。':
-         sendTextMessage(senderID, '你下流賤格，露出半個龜頭。');
+      case '你下流賤格，露出半個龜頭。':
+         sendTextMessage(senderID, '我上等威風，顯現一身虎膽。');
         break;
-      case '你家墳頭來種樹。':
-         sendTextMessage(senderID, '汝家澡盆雜配魚。');
+      case '汝家澡盆雜配魚。':
+         sendTextMessage(senderID, '你家墳頭來種樹。');
         break;
-      case '魚肥果熟入我肚。':
-         sendTextMessage(senderID, '你老娘來親下廚！');
+      case '你老娘來親下廚！':
+         sendTextMessage(senderID, '魚肥果熟入我肚。');
         break;
+      case '你好'：
+          sendTextMessage(senderID, '對穿腸：在下是七省文狀元兼參謀將軍，綽號對王之王的對穿腸。閣下是？');  
+          break;
       default:
         sendTextMessage(senderID, messageText);
     }
