@@ -1,6 +1,6 @@
 {
-    "appSecret": "",
-    "pageAccessToken": "",
-    "validationToken": "",
-    "serverURL": ""
+      "appSecret": "4630693940b9198da0c9b469f2c10dd3",
+    "pageAccessToken": "EAAHiVYx9f8MBAE1YJlCM9fbIv3364znLRKz9Ry5FAZCCgrneMb8vvayQQaSbZBpvuCUAs2i2YeTzgEFaRIooHchHVQWLCKlbnn6PtnRDAMHvxXYZAyqHgBWjnQZBSH0NrCyOknPkAGHZBBwBCpOobJt2UNPStZCFPTOXhcT62GNgZDZD",
+    "validationToken": "EAAHiVYx9f8MBAE1YJlCM9fbIv3364znLRKz9Ry5FAZCCgrneMb8vvayQQaSbZBpvuCUAs2i2YeTzgEFaRIooHchHVQWLCKlbnn6PtnRDAMHvxXYZAyqHgBWjnQZBSH0NrCyOknPkAGHZBBwBCpOobJt2UNPStZCFPTOXhcT62GNgZDZD",
+    "serverURL": "https://bot-messager-yungyu.c9users.io/"
 }
